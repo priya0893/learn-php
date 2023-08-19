@@ -149,8 +149,59 @@ switch($age) {
 
                 
  };
-
-
- 
  echo "<br>";
+
+ echo "<h2>function.</h2>";
+
+ function sum(){ // function declear
+    $a = 5;
+    $b = 5;
+    $c = $a + $b;
+    echo "$c"; 
+};
+sum(); //function call
+
+echo "<br>";
+
+function student() {
+    $fname = "Priya";
+    $lname = "Sharma";
+    $age = 30;
+    echo "My name is " . $fname . " " .  $lname  . " I am " . $age . " years old"; 
+    
+};
+student();
+
+echo "<h2>Dates.</h2>";
+
+$date = date("d/m/y");
+echo "Today is $date";
+ echo "<br>";
+
+ $da = date("dS F,o");
+echo "Today is $da";
+echo "<br>";
+
+$dt = date("h:i:s A");
+echo " Today is $dt";
+
+ECHO "<br>";
+$TD = date("d-m-y");
+echo $TD;
+
+echo "<h2>Array</h2>";
+ 
+echo "<b>there are <i>three</i> types of arrays</b>: <br>
+
+Indexed arrays - Arrays with a numeric index <br>
+Associative arrays - Arrays with named keys <br>
+Multidimensional arrays - Arrays containing one or more arrays";
+
+echo "<br>";
+echo "Indexted array";
+echo "<br>";
+echo "<br>";
+
+
+
 ?>
